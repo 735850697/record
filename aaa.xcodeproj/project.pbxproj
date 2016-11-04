@@ -15,6 +15,8 @@
 		340310CD1DCC19EA00BBA7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 340310CB1DCC19EA00BBA7C6 /* LaunchScreen.storyboard */; };
 		340310D81DCC19EA00BBA7C6 /* aaaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 340310D71DCC19EA00BBA7C6 /* aaaTests.m */; };
 		340310E31DCC19EA00BBA7C6 /* aaaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 340310E21DCC19EA00BBA7C6 /* aaaUITests.m */; };
+		340310F21DCC2C0400BBA7C6 /* JYZRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 340310F11DCC2C0400BBA7C6 /* JYZRecorder.m */; };
+		340310F51DCC340200BBA7C6 /* JYZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 340310F41DCC340200BBA7C6 /* JYZPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		340310DE1DCC19EA00BBA7C6 /* aaaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aaaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		340310E21DCC19EA00BBA7C6 /* aaaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aaaUITests.m; sourceTree = "<group>"; };
 		340310E41DCC19EA00BBA7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		340310F01DCC2C0400BBA7C6 /* JYZRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYZRecorder.h; sourceTree = "<group>"; };
+		340310F11DCC2C0400BBA7C6 /* JYZRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYZRecorder.m; sourceTree = "<group>"; };
+		340310F31DCC340200BBA7C6 /* JYZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYZPlayer.h; sourceTree = "<group>"; };
+		340310F41DCC340200BBA7C6 /* JYZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYZPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				340310CB1DCC19EA00BBA7C6 /* LaunchScreen.storyboard */,
 				340310CE1DCC19EA00BBA7C6 /* Info.plist */,
 				340310BD1DCC19E900BBA7C6 /* Supporting Files */,
+				340310F01DCC2C0400BBA7C6 /* JYZRecorder.h */,
+				340310F11DCC2C0400BBA7C6 /* JYZRecorder.m */,
+				340310F31DCC340200BBA7C6 /* JYZPlayer.h */,
+				340310F41DCC340200BBA7C6 /* JYZPlayer.m */,
 			);
 			path = aaa;
 			sourceTree = "<group>";
@@ -273,6 +283,8 @@
 				340310C51DCC19E900BBA7C6 /* ViewController.m in Sources */,
 				340310C21DCC19E900BBA7C6 /* AppDelegate.m in Sources */,
 				340310BF1DCC19E900BBA7C6 /* main.m in Sources */,
+				340310F51DCC340200BBA7C6 /* JYZPlayer.m in Sources */,
+				340310F21DCC2C0400BBA7C6 /* JYZRecorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,8 +428,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = aaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzti.jia.aaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzti.jia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -427,8 +440,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = aaa/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zzti.jia.aaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzti.jia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
